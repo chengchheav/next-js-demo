@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const members = [
     {
         name: 'Méschac Irung',
@@ -33,7 +35,7 @@ export default function TeamSection() {
                         {members.map((member, index) => (
                             <div key={index}>
                                 <div className="bg-background size-20 rounded-full border p-0.5 shadow shadow-zinc-950/5">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                                    <Image className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
                                 <span className="mt-2 block text-sm">{member.name}</span>
                                 <span className="text-muted-foreground block text-xs">{member.role}</span>
@@ -48,7 +50,7 @@ export default function TeamSection() {
                         {members.map((member, index) => (
                             <div key={index}>
                                 <div className="bg-background size-20 rounded-full border p-0.5 shadow shadow-zinc-950/5">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                                    <Image className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
                                 <span className="mt-2 block text-sm">{member.name}</span>
                                 <span className="text-muted-foreground block text-xs">{member.role}</span>
@@ -63,7 +65,7 @@ export default function TeamSection() {
                         {members.map((member, index) => (
                             <div key={index}>
                                 <div className="bg-background size-20 rounded-full border p-0.5 shadow shadow-zinc-950/5">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                                    <Image className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
                                 <span className="mt-2 block text-sm">{member.name}</span>
                                 <span className="text-muted-foreground block text-xs">{member.role}</span>
@@ -77,7 +79,7 @@ export default function TeamSection() {
                         {members.map((member, index) => (
                             <div key={index}>
                                 <div className="bg-background size-20 rounded-full border p-0.5 shadow shadow-zinc-950/5">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                                    <Image className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
                                 <span className="mt-2 block text-sm">{member.name}</span>
                                 <span className="text-muted-foreground block text-xs">{member.role}</span>

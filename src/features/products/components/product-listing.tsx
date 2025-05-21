@@ -4,7 +4,8 @@ import { searchParamsCache } from '@/lib/searchparams';
 import { ProductTable } from './product-tables';
 import { columns } from './product-tables/columns';
 
-type ProductListingPage = {};
+// type ProductListingPage = {};
+type ProductListingPage = object;
 
 export default async function ProductListingPage({}: ProductListingPage) {
   // Showcasing the use of search params cache in nested RSCs

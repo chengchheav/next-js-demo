@@ -40,6 +40,7 @@ const defaultCols = [
 
 export type ColumnId = (typeof defaultCols)[number]['id'];
 
+console.log(defaultCols);
 export function KanbanBoard() {
   // const [columns, setColumns] = useState<Column[]>(defaultCols);
   const columns = useTaskStore((state) => state.columns);
@@ -53,7 +54,7 @@ export function KanbanBoard() {
   const tasks = useTaskStore((state) => state.tasks);
   const setTasks = useTaskStore((state) => state.setTasks);
   const [activeColumn, setActiveColumn] = useState<Column | null>(null);
-  const [isMounted, setIsMounted] = useState<Boolean>(false);
+  const [isMounted, setIsMounted] = useState<boolean>(false);
 
   const [activeTask, setActiveTask] = useState<Task | null>(null);
 

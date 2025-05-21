@@ -15,7 +15,7 @@ export default function Providers({
 }) {
   // we need the resolvedTheme value to set the baseTheme for clerk based on the dark or light theme
   const { resolvedTheme } = useTheme();
-
+console.log(resolvedTheme)
   return (
     <>
       <ActiveThemeProvider initialTheme={activeThemeValue}>

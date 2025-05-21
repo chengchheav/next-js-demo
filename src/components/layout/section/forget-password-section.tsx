@@ -16,7 +16,7 @@ export default function ForgotPasswordSection() {
                             href="/"
                             aria-label="go home">
                             {/* <LogoIcon /> */}
-                            <img src="/app-logo.png"/>
+                            {/* <img src="/app-logo.png"/> */}
                         </Link>
                         <h1 className="mb-1 mt-4 text-xl font-semibold">Recover Password</h1>
                         <p className="text-sm">Enter your email to receive a reset link</p>
@@ -42,7 +42,7 @@ export default function ForgotPasswordSection() {
                     </div>
 
                     <div className="mt-6 text-center">
-                        <p className="text-muted-foreground text-sm">We'll send you a link to reset your password.</p>
+                        <p className="text-muted-foreground text-sm">We will send you a link to reset your password.</p>
                     </div>
                 </div>
 

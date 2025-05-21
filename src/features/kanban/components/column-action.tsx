@@ -65,12 +65,12 @@ export function ColumnActions({
         </DropdownMenuTrigger>
         <DropdownMenuContent align='end'>
           <DropdownMenuItem
-            onSelect={() => {
-              setIsEditDisable(!editDisable);
-              setTimeout(() => {
-                inputRef.current && inputRef.current?.focus();
-              }, 500);
-            }}
+            // onSelect={() => {
+            //   setIsEditDisable(!editDisable);
+            //   setTimeout(() => {
+            //     inputRef.current && inputRef.current?.focus();
+            //   }, 500);
+            // }}
           >
             Rename
           </DropdownMenuItem>

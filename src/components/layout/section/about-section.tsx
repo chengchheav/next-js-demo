@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 
 export default function AboutSection() {
   return (
+      
       <main className="flex-1 bg-gray-100 py-12 md:py-24 dark:bg-gray-800">
         <div className="container space-y-12 px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-2 text-center">
@@ -15,6 +16,7 @@ export default function AboutSection() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl">About Us</h1>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 We&apos;re on a mission to help teams build, deploy, and scale the best web experiences.
+                <Button />
               </p>
             </div>
           </div>
@@ -46,39 +48,39 @@ export default function AboutSection() {
           </div>
           <div className="grid max-w-sm gap-4 mx-auto items-start sm:max-w-4xl sm:grid-cols-2 md:gap-8 lg:max-w-5xl lg:grid-cols-3">
             <div className="flex flex-col items-center justify-center space-y-2 text-center">
-              <img
+              {/* <img
                 src="/defualt-profile.png"
                 width="300"
                 height="300"
                 alt="Team member"
                 className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-200 border-gray-200 dark:border-gray-800 dark:filter dark:brightness-90"
-              />
+              /> */}
               <div className="space-y-1">
                 <h3 className="text-xl font-semibold">Alice Johnson</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Product Manager</p>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2 text-center">
-              <img
+              {/* <img
                 src="/defualt-profile.png"
                 width="300"
                 height="300"
                 alt="Team member"
                 className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-200 border-gray-200 dark:border-gray-800 dark:filter dark:brightness-90"
-              />
+              /> */}
               <div className="space-y-1">
                 <h3 className="text-xl font-semibold">Bob Smith</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Software Engineer</p>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2 text-center">
-              <img
+              {/* <img
                 src="/defualt-profile.png"
                 width="300"
                 height="300"
                 alt="Team member"
                 className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-200 border-gray-200 dark:border-gray-800 dark:filter dark:brightness-90"
-              />
+              /> */}
               <div className="space-y-1">
                 <h3 className="text-xl font-semibold">Ella Brown</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">UX Designer</p>
@@ -111,42 +113,43 @@ export default function AboutSection() {
   )
 }
 
-function ChevronDownIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m6 9 6 6 6-6" />
-    </svg>
-  )
-}
+// function ChevronDownIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       xmlns="http://www.w3.org/2000/svg"
+//       width="24"
+//       height="24"
+//       viewBox="0 0 24 24"
+//       fill="none"
+//       stroke="currentColor"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     >
+//       <path d="m6 9 6 6 6-6" />
+//     </svg>
+//   )
+// }
 
 
-function FlagIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
-      <line x1="4" x2="4" y1="22" y2="15" />
-    </svg>
-  )
-}
+
+// function FlagIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       xmlns="http://www.w3.org/2000/svg"
+//       width="24"
+//       height="24"
+//       viewBox="0 0 24 24"
+//       fill="none"
+//       stroke="currentColor"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     >
+//       <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+//       <line x1="4" x2="4" y1="22" y2="15" />
+//     </svg>
+//   )
+// }

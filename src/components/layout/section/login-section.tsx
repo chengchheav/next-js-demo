@@ -17,7 +17,7 @@ export default function LoginSection() {
                             aria-label="go home"
                             className="mx-auto block w-fit">
                             {/* <LogoIcon /> */}
-                            <img src="/app-logo.png"/>
+                            {/* <img src="/app-logo.png"/> */}
                         </Link>
                         <h1 className="mb-1 mt-4 text-xl font-semibold">Sign In</h1>
                         <p className="text-sm">Welcome back! Sign in to continue</p>
@@ -126,7 +126,7 @@ export default function LoginSection() {
 
                 <div className="p-3">
                     <p className="text-accent-foreground text-center text-sm">
-                        Don't have an account ?
+                        Do not have an account ?
                         <Button
                             asChild
                             variant="link"

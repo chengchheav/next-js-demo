@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
 
 module.exports = {
   images: {
-    domains: ['api.slingacademy.com'],
+    domains: ['api.slingacademy.com','avatars.githubusercontent.com'],
   },
 };
 
